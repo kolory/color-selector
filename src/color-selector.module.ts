@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core'
-import {ColorSelectorComponent} from './color-selector'
+import {ColorSelectorComponent} from './color-selector.component'
 import {ColorUtilities} from '@kolory/color-utilities'
 
 @NgModule({
