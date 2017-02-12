@@ -1,0 +1,49 @@
+{
+  "name": "@kolory/angular-color-selector",
+  "version": "0.0.1",
+  "description": "Angular 2 component for selecting colors from provided list",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node --max-old-space-size=4096 node_modules/karma/bin/karma start --single-run",
+    "lint": "./node_modules/tslint/bin/tslint --type-check --project ./tsconfig.json --config ./tslint.json",
+    "unit": "node --max-old-space-size=4096 node_modules/karma/bin/karma start",
+    "build": "./node_modules/typescript/bin/tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "angular",
+    "colors",
+    "selector",
+    "component"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@kolory/color-utilities": "~0.1.2"
+  },
+  "devDependencies": {
+    "@angular/common": "^2.2.3",
+    "@angular/compiler": "^2.2.3",
+    "@angular/core": "^2.2.3",
+    "@angular/platform-browser": "^2.2.3",
+    "@angular/platform-browser-dynamic": "^2.2.3",
+    "@types/core-js": "^0.9.34",
+    "@types/jasmine": "^2.2.34",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-typescript": "^2.1.4",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "traceur": "0.0.111",
+    "tslint": "^4.0.2",
+    "tslint-eslint-rules": "^3.0.0",
+    "tslint-microsoft-contrib": "^2.0.13",
+    "typescript": "^2.0.10",
+    "zone.js": "^0.6.26"
+  }
+}
