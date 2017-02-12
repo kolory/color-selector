@@ -5,13 +5,11 @@ const COMPONENT_NAME = 'color-selector'
 
 @Component({
   selector: COMPONENT_NAME,
-  template: `<div></div>`
+  template: `<div>Color Selector</div>`
 })
 
 /**
  * TODO
  * @example
  */
-export class ColorSelectorComponent {
-
-}
+export class ColorSelectorComponent {}
