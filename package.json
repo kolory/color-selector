@@ -36,7 +36,7 @@
     "karma-opera-launcher": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-safari-launcher": "^1.0.0",
-    "karma-typescript": "^2.1.4",
+    "karma-typescript": "https://github.com/monounity/karma-typescript.git#2.1.8",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "traceur": "0.0.111",
